@@ -39,6 +39,9 @@ body {
 header, nav, footer {
   text-align: center; }
 
+header {
+  margin-bottom: 6.0em; }
+
 nav {
   text-transform: lowercase;
   top: 0px;
