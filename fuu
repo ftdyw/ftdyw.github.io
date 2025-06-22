@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>風（ふう）</title>
+  <style>
+    /* index.htmlと同じCSSをここにも貼り付けてください */
+    
+/* 基本スタイル（ミニマル） */
+body {
+  font-family: 'IBM Plex Mono', 'Courier New', Courier, monospace;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #222;
+  max-width: 640px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  word-break: break-word;
+  background: #fff;
+}
+
+/* 各投稿の間隔を広げる */
+article + article {
+  margin-top: 6rem;
+}
+
+/* ヘッダー・タイトルを非表示 */
+header, h1.site-title {
+  display: none;
+}
+
+/* ナビゲーションも削除（必要に応じて） */
+nav {
+  display: none;
+}
+
+/* フッターにだけ機能を残す（PDF保存リンクなど） */
+footer {
+  margin-top: 6rem;
+  font-size: 0.9rem;
+  text-align: center;
+  color: #666;
+}
+
+/* リンクのスタイル */
+a {
+  color: #0044cc;
+  text-decoration: underline;
+}
+
+/* レスポンシブ対応 */
+@media screen and (max-width: 768px) {
+  body {
+    width: 90%;
+    margin: 2rem auto;
+    font-size: 16px;
+  }
+}
+
+ <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  
+  </style>
+</head>
+<body>
+
+<article>
+ <p>「風（ふう）が良い」と魚屋は言う。形がきれいで格好良いという意味。しかしそれは外見だけを語っているのではなく味も良いことを示している。見た目の良さと味には相関があることを経験的に知っていて「このスズキはうまいよ、風が良いでしょう」と言うのである。あまりに単純だが、単純さは堅固であることを意味する。見た目に美しいうまそうな魚をえらぶのが良い。</p>
+ <p>面白いことに、「風（ふう）が溜まる」という表現もある。風とはいわば悪い気のようなものだろう。収穫してから日にちがたったものや、料理をしてから時間がたったものには風が溜まる。風の溜まったものを食べることで人のからだにも風が溜まっていく。蓄積した風は不調や病気の原因になる。だから出来るだけ早く食べる。食べ残ったものも保存せず捨てる。食べたいときにはその都度つくる。この風の感覚をわたしは好いている。いかにも科学的でないし、たとえば菌やバクテリアによる腐敗がおきているといえば現代的に常識だが、そんなことを知らずとも風の話で片づけることができる。</p>
+ <p>「こんな風にしてほしい」のような曖昧模糊とした表現をよく耳にするが、案外、奥が深いものである。</p>
+</article>
+
+<footer>
+  <a href="index.html">目次へ戻る</a>
+</footer>
+
+</body>
+</html>
